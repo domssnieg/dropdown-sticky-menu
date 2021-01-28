@@ -1,0 +1,197 @@
+body{
+    background-color:white;
+    font-family: 'Chakra Petch', sans-serif;
+    color: rgb(104, 104, 104);
+    font-size: 18px;
+    margin: 0px;
+    text-align: justify;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    background: -webkit-linear-gradient(45deg, rgb(35, 61, 133) 20%, rgb(106, 18, 117) 50%, rgb(255, 0, 170) 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    letter-spacing: -3px;
+}
+
+nav{
+    text-align: center;
+    border-bottom: rgb(104, 104, 104) 2px solid;
+    margin-top: 50px;
+    padding-top: 3px;
+    position: sticky;
+    top: -1px;
+    left:0px;
+    z-index: 100;
+    width:100%;
+    background-color: white;  
+}
+
+
+nav ol li a:link{
+    font-size: 20px;
+    font-weight: 800;
+    color:rgb(104, 104, 104);
+    text-decoration: none;
+}
+
+nav ol li a:hover{
+    text-decoration: none;
+    color:rgb(104, 104, 104);
+}
+
+nav ol li a:active{
+    text-decoration: none;
+    color:rgb(104, 104, 104);
+}
+
+nav ol li a:visited{
+    text-decoration: none;
+    color:rgb(104, 104, 104);
+}
+
+#content{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+#socials{
+    text-align: center;
+    background: -webkit-linear-gradient(45deg, rgb(35, 61, 133) 20%, rgb(106, 18, 117) 50%, rgb(170, 22, 138) 90%);
+    color: white;
+    padding:15px;
+    height: 60px;
+}
+
+#yt{
+    display: inline-block;
+    color: rgb(170, 22, 138);
+    padding:15px;
+    border: white solid 4px;
+    border-radius: 60px;
+
+}
+
+#tw{
+    display: inline-block;
+    color: white;
+    padding:15px;
+    border: white solid 4px;
+    border-radius: 60px;
+}
+
+#fb{
+    display: inline-block;
+    color: white;
+    padding:15px;
+    border: white solid 4px;
+    border-radius: 60px;
+}
+
+#socials a:link{
+    color:white;
+    text-decoration: none;
+}
+
+#socials a:hover{
+    color:white;
+    text-decoration: none;
+}
+
+#socials a:active{
+    color:white;
+    text-decoration: none;
+}
+
+#socials a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+footer a:link{
+    color:rgb(104, 104, 104);
+    text-decoration: none;
+}
+
+footer a:active{
+    color:rgb(104, 104, 104);
+    text-decoration: none;
+}
+footer a:hover{
+    color:rgb(104, 104, 104);
+    text-decoration: none;
+    font-weight: 700;
+}
+footer a:visited{
+    color:rgb(104, 104, 104);
+    text-decoration: none;
+}
+#content{
+    margin-bottom: 30px;
+    line-height: 250%;
+}
+
+ol{
+    display: inline-block;
+    width: 100%;
+    list-style-type: none;
+    height: 35px;
+    line-height: 200%;
+    padding: 0;
+    margin: 0;
+}
+
+ol a{
+    color:rgb(104, 104, 104);
+    text-decoration: none;
+    display: block;
+}
+
+ol > li{
+    width: 16%;
+    font-size: 20px;
+    font-weight: 800;
+    color:rgb(104, 104, 104);
+    height: 40px;
+    float: left;
+    /*TU ZAWSZE MUSI BYC FLOAT LEFT*/
+}
+
+ol > li > ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    height: 40px;
+    display: none;
+}
+
+ol > li:hover > ul
+{
+    display: block;
+}
+
+ol > li > ul > li {
+   background-color: white;
+   position: relative;
+   z-index:100;
+   text-align: left;
+}
+
+ol > li > ul > li:hover{
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+}
+
